@@ -1,0 +1,23 @@
+<?php
+/** @var $block Display */
+
+/** @var $escaper Escaper */
+
+use SimpleTask\CustomTab\Block\Display;
+use Magento\Framework\Escaper;
+
+?>
+<form method="post" action="<?= $block->getPostUrl() ?>" enctype='multipart/form-data'>
+    <fieldset style="margin: 0 auto; width: 50%">
+        <div>
+            <label for="task name"><?= __("Customer Name") ?></label>
+            <input style="margin-top: 10px" type="text" name="name"/>
+        </div>
+        <div>
+            <label for="task Description"><?= __("Customer Email") ?></label>
+            <input style="margin-top: 10px" type="text" name="email"/>
+        </div>
+        <input style="margin-top: 10px" type="submit" value="<?= __("Add Data") ?>"/>
+    </fieldset>
+</form>
+

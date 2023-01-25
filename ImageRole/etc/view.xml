@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<view xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="urn:magento:framework:Config/etc/view.xsd">
+    <media>
+        <images module="Magento_Catalog">
+            <image id="product_top_banner" type="na_image_custom_role">
+                <width>200</width>
+                <height>200</height>
+            </image>
+        </images>
+    </media>
+</view>

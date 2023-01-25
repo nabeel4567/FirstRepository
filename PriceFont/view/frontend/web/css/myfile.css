@@ -1,0 +1,12 @@
+.catalog-category-view li.product.simple span.price {
+    color: blue
+}
+
+.catalog-category-view li.product.configurable span.price {
+    color: red
+}
+
+.catalog-category-view li.product.configurable span.price:hover {
+    color: #62d726
+}
+

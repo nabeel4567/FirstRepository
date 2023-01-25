@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<config>
+    <type name="Magento\Catalog\Model\Product">
+        <plugin name="change_product" type="SimpleTask\ChangePrice\Plugin\Price"
+                sortOrder="1" disabled="false"/>
+    </type>
+</config>

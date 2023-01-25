@@ -1,0 +1,10 @@
+<?php
+/** @var Magento\Cms\Block\Block $block */
+?>
+<div class="header.panel">
+    <?= $block->getLayout()
+        ->createBlock('Magento\Cms\Block\Block')
+        ->setBlockId('custom_cms_block') // CMS block Identifier
+        ->toHtml();
+    ?>
+</div>
